@@ -24,6 +24,7 @@ public abstract class BasePage {
 		PAGE_URLS.put("inputs", BASE_URL + "/inputs");
 		PAGE_URLS.put("secure area", BASE_URL + "/secure");
 		PAGE_URLS.put("file download", BASE_URL + "/download");
+		PAGE_URLS.put("file upload", BASE_URL + "/upload");
 
 		
 

@@ -55,14 +55,11 @@ public class CommonStepsDefinition {
 
 		this.page = pageName;
 		String url = BasePage.PAGE_URLS.get(pageName.toLowerCase());
-
-		System.out.println("aaaaaaaaaaaa   "  + url);
 		
-		Thread.sleep(5000);
+		Thread.sleep(5000);		
 		
 		BasePage.driver.get(url);
 		
-		System.out.println("aaaaaaaaaaaa   ");
 
 	}
 
